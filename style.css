@@ -1,16 +1,50 @@
+.body{
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   color: white;
   background-color: black;
   width: 100%;
   height: fit-content;
-  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.box{
+.box50{
   width: 50%;
   text-align: center;
+}
+
+.contatos{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  text-align: center;
+  justify-content: space-between;
+  gap: 5%;
+}
+
+.box{
+  width: auto;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.nav{
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  color: white;
+  background-color: black;
+  max-width: 100%;
+  height: fit-content;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
